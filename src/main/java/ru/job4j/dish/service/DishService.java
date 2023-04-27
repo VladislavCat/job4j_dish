@@ -17,8 +17,8 @@ public class DishService {
         return repository.save(dish);
     }
 
-    public List<Dish> findAll() {
-        return repository.findAll();
+    public List<Dish> findAllById(List<Integer> ids) {
+        return repository.findAllById(ids);
     }
 
     public Optional<Dish> findById(int id) {
