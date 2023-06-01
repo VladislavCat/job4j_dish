@@ -9,7 +9,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @RequiredArgsConstructor
 @Entity
-@Table(name = "dish")
+@Table(name = "dishes")
 @Getter
 @Setter
 @ToString
